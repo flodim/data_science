@@ -53,18 +53,16 @@ d’apprentissage parmi la méthode des K-plus proches voisins
 répétée 10 fois pour chaque sélection de paramètres.
 * Pour la validation croisée regarder dans le document 06 (Cyberlearn) les diapos 42 et
 43, puis dans sklearn.model_selection.
-* Pour les arbres, regarder http://scikit-
-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html. Il est
+* Pour les arbres, regarder http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html. Il est
 demandé de faire varier le paramètre min_samples_leaf.
-* Pour le Perceptron multi-couches : http://scikit-
-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html. C’est
+* Pour le Perceptron multi-couches : http://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html . C’est
 un peu plus délicat. Fixer la fonction d’activation (de votre choix), puis définir quelques
 architectures avec au maximum deux couches cachées. Pour éviter le sur-apprentissage
 utiliser l’option early_stopping avec la valeur True.
 
 ### Partie 3.
 
-* Les données sont à choisir sur le site https://archive.ics.uci.edu/ml/datasets.html.
+* Les données sont à choisir sur le site[https://archive.ics.uci.edu/ml/datasets.html](https://archive.ics.uci.edu/ml/datasets.html).
 * Il doit y avoir au moins deux classes, au moins dix variables et au moins 200 données.
 Evitez de prendre un ensemble de données avec plus de 20000 examples. Toute
 exception violant ces contraintes reste possible sur demande à l’enseignant.
