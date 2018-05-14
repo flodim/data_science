@@ -62,7 +62,7 @@ utiliser l’option early_stopping avec la valeur True.
 
 ### Partie 3.
 
-* Les données sont à choisir sur le site[https://archive.ics.uci.edu/ml/datasets.html](https://archive.ics.uci.edu/ml/datasets.html).
+* Les données sont à choisir sur le site [https://archive.ics.uci.edu/ml/datasets.html](https://archive.ics.uci.edu/ml/datasets.html).
 * Il doit y avoir au moins deux classes, au moins dix variables et au moins 200 données.
 Evitez de prendre un ensemble de données avec plus de 20000 examples. Toute
 exception violant ces contraintes reste possible sur demande à l’enseignant.
