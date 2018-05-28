@@ -1,6 +1,8 @@
 import numpy as np
+import scipy as sp
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
 import matplotlib.colors as mcolors
 
 
