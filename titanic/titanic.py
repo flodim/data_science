@@ -1,5 +1,5 @@
 import numpy as np
-import scipy as sp
+from scipy.spatial import distance
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
@@ -9,14 +9,29 @@ import matplotlib.colors as mcolors
 # read data from csv file
 titanic_data = np.genfromtxt('titanic.dat', delimiter=',', skip_header=1)
 
+
+def mean_dist(data, cluster_center):
+    distance.euclidean()
+#
+# for n_clusters in range(1, len(titanic_data)):
+#     kmeans = KMeans(n_clusters=n_clusters, random_state=0)
+#     labels = kmeans.labels_
+#     clusters_centers = kmeans.cluster_centers_
+
+
+
 # extract data
 classes = titanic_data[:, 0]
 ages = titanic_data[:, 1]
 sexes = titanic_data[:, 2]
 survived = titanic_data[:, 3]
 
-for i in ages:
-    print(i)
+# separate data
+
+
+
+for n_clusters in ages:
+    print(n_clusters)
 
 # 3d scatter plot
 fig_3d = plt.figure(1)
